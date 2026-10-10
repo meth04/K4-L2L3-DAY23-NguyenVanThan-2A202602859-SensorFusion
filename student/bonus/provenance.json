@@ -1,0 +1,18 @@
+{
+  "segment": "training_segment-1005081002024129653_5313_150_5333_150_with_camera_labels.tfrecord",
+  "frames": [
+    0,
+    198
+  ],
+  "seed": 0,
+  "experiment": "T_bad = T_true @ Rz(yaw); identical raw observations and detections",
+  "threads": 4,
+  "source_sha256": {
+    "student\\workspace\\kalman.py": "c79165ad89e6f50cd4ebc4f4148b6ec92fadd4af19e37829478ed6fcaffb12b2",
+    "student\\workspace\\association.py": "f1ab103b37888c075d0c9452bd15ca11c0c5b5f4cc72d0c11b933ebcc6651a92",
+    "student\\workspace\\camera_fusion.py": "10eea7351da6730d27311311ff22622fd74a05d46926767de8b403ec41de603f",
+    "student\\workspace\\track_management.py": "9cac239666946c3e3996864eb1cbbc2544186c8f7cefd8881e74bd7b2c0042b8"
+  },
+  "weights_sha256": "d20d2576b51ec3b069bb57c9203df7cb637c241f5751af8a9fd15916425acabc",
+  "script_sha256": "0be992db314f92f0d4e5cee0000ea0e51f13a094137949e56e36e9583280720b"
+}
