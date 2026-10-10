@@ -4,6 +4,7 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 .venv*
+.ehdeps/
 .env
 .env.*
 !.env.example
@@ -18,6 +19,15 @@ data/**
 *.tfrecord
 *.pth
 *.pickle
+
+# Downloaded archives (Drive zips) must never be committed.
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.7z
+*.rar
 
 **/config/paths.yaml
 **/artifacts/*
